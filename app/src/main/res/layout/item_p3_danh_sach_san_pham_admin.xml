@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="#DFF8EF"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="190dp">
+
+
+    <LinearLayout
+        android:id="@+id/lineritem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+
+            android:id="@+id/imgDanhSachSanPhamAdmin"
+
+            android:src="@drawable/img_22222"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tvTenDanhSachSanPhamAdmin"
+
+            android:text="xxxxxx"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvGiaSanPhamDanhSachSanPhamAdmin"
+                android:layout_width="wrap_content"
+
+                android:layout_height="7dp"
+
+                android:fontFamily="serif"
+                android:text="17.000 VND"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+
+                >
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivIconGioHangItem"
+                    android:src="@drawable/icon_gio_hang_trang_chu"
+                    android:adjustViewBounds="true"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
